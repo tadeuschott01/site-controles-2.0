@@ -1,1033 +1,123 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-
 <head>
-    <meta charset="UTF-8">
-
-    <meta
-        name="viewport"
-        content="width=device-width, initial-scale=1.0"
-    >
-
-    <meta
-        name="theme-color"
-        content="#0b3f2d"
-    >
-
-    <meta
-        name="description"
-        content="ControleS — Organize suas finanças de forma simples, rápida e inteligente."
-    >
-
-    <title>ControleS — Seu dinheiro sob controle</title>
-
-    <!-- Fonte -->
-    <link
-        rel="preconnect"
-        href="https://fonts.googleapis.com"
-    >
-
-    <link
-        rel="preconnect"
-        href="https://fonts.gstatic.com"
-        crossorigin
-    >
-
-    <link
-        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
-        rel="stylesheet"
-    >
-
-    <!-- CSS -->
-    <link
-        rel="stylesheet"
-        href="site.css"
-    >
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#073425">
+  <meta name="description" content="ControleS — organize receitas, despesas, metas e sua vida financeira pelo navegador ou aplicativo.">
+  <title>ControleS — Seu dinheiro sob controle</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="site.css">
 </head>
-
-
 <body>
+  <header class="header">
+    <a class="brand" href="#inicio" aria-label="ControleS - início">
+      <span class="brand-mark">C↗</span>
+      <span>ControleS</span>
+    </a>
+    <nav class="nav">
+      <a href="#recursos">Recursos</a>
+      <a href="#online">Versão Web</a>
+      <a href="#app">Aplicativo</a>
+    </nav>
+    <a class="btn btn-small btn-outline" href="app.html">Entrar</a>
+  </header>
 
-    <!-- =====================================================
-         HEADER
-    ====================================================== -->
-
-    <header class="site-header">
-
-        <div class="container header-container">
-
-            <a
-                href="#inicio"
-                class="brand"
-                aria-label="ControleS - Início"
-            >
-
-                <div class="brand-icon">
-                    C
-                </div>
-
-                <div class="brand-text">
-
-                    <strong>
-                        ControleS
-                    </strong>
-
-                    <span>
-                        Seu dinheiro sob controle
-                    </span>
-
-                </div>
-
-            </a>
-
-
-            <nav class="desktop-nav">
-
-                <a href="#recursos">
-                    Recursos
-                </a>
-
-                <a href="#online">
-                    ControleS Online
-                </a>
-
-                <a href="#app">
-                    Aplicativo
-                </a>
-
-                <a href="#premium">
-                    Premium
-                </a>
-
-            </nav>
-
-
-            <a
-                href="app.html"
-                class="header-button"
-            >
-                Entrar
-            </a>
-
+  <main>
+    <section class="hero" id="inicio">
+      <div class="hero-copy">
+        <span class="eyebrow">CONTROLE FINANCEIRO SIMPLES</span>
+        <h1>Seu dinheiro.<br><span>Sob controle.</span></h1>
+        <p>Organize receitas, despesas, valores a receber e acompanhe sua vida financeira de qualquer lugar.</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="app.html">Usar ControleS Online</a>
+          <a class="btn btn-secondary" href="#app">Baixar na Play Store</a>
         </div>
-
-    </header>
-
-
-
-    <!-- =====================================================
-         HERO
-    ====================================================== -->
-
-    <main>
-
-        <section
-            id="inicio"
-            class="hero"
-        >
-
-            <div class="container hero-container">
-
-                <div class="hero-content">
-
-                    <div class="hero-badge">
-                        CONTROLE FINANCEIRO SIMPLES E INTELIGENTE
-                    </div>
-
-
-                    <h1>
-                        Seu dinheiro
-                        <span>
-                            sob controle.
-                        </span>
-                    </h1>
-
-
-                    <p class="hero-description">
-                        Organize suas receitas, despesas, metas e
-                        acompanhe sua vida financeira de qualquer lugar.
-                    </p>
-
-
-                    <div class="hero-buttons">
-
-                        <a
-                            href="app.html"
-                            class="button button-primary"
-                        >
-                            Usar ControleS Online
-                        </a>
-
-
-                        <a
-                            href="#app"
-                            class="button button-secondary"
-                        >
-                            Baixar aplicativo
-                        </a>
-
-                    </div>
-
-
-                    <div class="hero-benefits">
-
-                        <span>
-                            ✓ Sem precisar instalar
-                        </span>
-
-                        <span>
-                            ✓ Acesse de qualquer dispositivo
-                        </span>
-
-                        <span>
-                            ✓ Seus dados sincronizados
-                        </span>
-
-                    </div>
-
-                </div>
-
-
-
-                <!-- =================================================
-                     PREVIEW
-                ================================================== -->
-
-                <div class="hero-preview">
-
-                    <div class="preview-window">
-
-                        <div class="preview-topbar">
-
-                            <div class="preview-dots">
-
-                                <span></span>
-                                <span></span>
-                                <span></span>
-
-                            </div>
-
-                            <div class="preview-url">
-                                ControleS
-                            </div>
-
-                        </div>
-
-
-                        <div class="preview-content">
-
-                            <div class="preview-sidebar">
-
-                                <div class="preview-logo">
-                                    C
-                                </div>
-
-                                <div class="preview-menu active"></div>
-                                <div class="preview-menu"></div>
-                                <div class="preview-menu"></div>
-                                <div class="preview-menu"></div>
-
-                            </div>
-
-
-                            <div class="preview-dashboard">
-
-                                <div class="preview-heading">
-
-                                    <div>
-
-                                        <small>
-                                            VISÃO GERAL
-                                        </small>
-
-                                        <h3>
-                                            Dashboard
-                                        </h3>
-
-                                    </div>
-
-                                    <div class="preview-avatar">
-                                        C
-                                    </div>
-
-                                </div>
-
-
-                                <div class="preview-cards">
-
-                                    <div class="preview-card">
-
-                                        <span>
-                                            Receitas
-                                        </span>
-
-                                        <strong>
-                                            R$ 4.850
-                                        </strong>
-
-                                        <small class="positive">
-                                            +12%
-                                        </small>
-
-                                    </div>
-
-
-                                    <div class="preview-card">
-
-                                        <span>
-                                            Despesas
-                                        </span>
-
-                                        <strong>
-                                            R$ 2.120
-                                        </strong>
-
-                                        <small>
-                                            Este mês
-                                        </small>
-
-                                    </div>
-
-
-                                    <div class="preview-card">
-
-                                        <span>
-                                            Saldo
-                                        </span>
-
-                                        <strong>
-                                            R$ 2.730
-                                        </strong>
-
-                                        <small class="positive">
-                                            Positivo
-                                        </small>
-
-                                    </div>
-
-                                </div>
-
-
-                                <div class="preview-bottom">
-
-                                    <div class="preview-chart">
-
-                                        <div class="chart-title">
-                                            Evolução financeira
-                                        </div>
-
-                                        <div class="fake-chart">
-
-                                            <span style="height: 35%;"></span>
-                                            <span style="height: 55%;"></span>
-                                            <span style="height: 45%;"></span>
-                                            <span style="height: 75%;"></span>
-                                            <span style="height: 60%;"></span>
-                                            <span style="height: 90%;"></span>
-
-                                        </div>
-
-                                    </div>
-
-
-                                    <div class="preview-summary">
-
-                                        <span>
-                                            Economia
-                                        </span>
-
-                                        <strong>
-                                            R$ 2.730
-                                        </strong>
-
-                                        <small>
-                                            Continue assim!
-                                        </small>
-
-                                    </div>
-
-                                </div>
-
-                            </div>
-
-                        </div>
-
-                    </div>
-
-                </div>
-
-            </div>
-
-        </section>
-
-
-
-        <!-- =====================================================
-             RECURSOS
-        ====================================================== -->
-
-        <section
-            id="recursos"
-            class="features-section"
-        >
-
-            <div class="container">
-
-                <div class="section-heading">
-
-                    <span>
-                        RECURSOS
-                    </span>
-
-                    <h2>
-                        Tudo para organizar
-                        sua vida financeira
-                    </h2>
-
-                    <p>
-                        Ferramentas simples para você entender melhor
-                        para onde seu dinheiro está indo.
-                    </p>
-
-                </div>
-
-
-                <div class="features-grid">
-
-
-                    <!-- RECEITAS -->
-
-                    <article class="feature-card">
-
-                        <div class="feature-icon">
-                            ↗
-                        </div>
-
-                        <h3>
-                            Receitas
-                        </h3>
-
-                        <p>
-                            Registre seus ganhos e acompanhe
-                            tudo que entra na sua conta.
-                        </p>
-
-                    </article>
-
-
-
-                    <!-- DESPESAS -->
-
-                    <article class="feature-card">
-
-                        <div class="feature-icon">
-                            ↘
-                        </div>
-
-                        <h3>
-                            Despesas
-                        </h3>
-
-                        <p>
-                            Controle seus gastos e descubra
-                            onde você pode economizar.
-                        </p>
-
-                    </article>
-
-
-
-                    <!-- GRÁFICOS -->
-
-                    <article class="feature-card">
-
-                        <div class="feature-icon">
-                            ▥
-                        </div>
-
-                        <h3>
-                            Gráficos
-                        </h3>
-
-                        <p>
-                            Visualize suas finanças de uma forma
-                            simples e fácil de entender.
-                        </p>
-
-                    </article>
-
-
-
-                    <!-- METAS -->
-
-                    <article class="feature-card">
-
-                        <div class="feature-icon">
-                            ◎
-                        </div>
-
-                        <h3>
-                            Metas financeiras
-                        </h3>
-
-                        <p>
-                            Defina objetivos e acompanhe
-                            sua evolução financeira.
-                        </p>
-
-                    </article>
-
-
-
-                    <!-- A RECEBER -->
-
-                    <article class="feature-card">
-
-                        <div class="feature-icon">
-                            $
-                        </div>
-
-                        <h3>
-                            A receber
-                        </h3>
-
-                        <p>
-                            Registre valores futuros e tenha
-                            mais controle sobre seus recebimentos.
-                        </p>
-
-                    </article>
-
-
-
-                    <!-- RELATÓRIOS -->
-
-                    <article class="feature-card">
-
-                        <div class="feature-icon">
-                            ◫
-                        </div>
-
-                        <h3>
-                            Relatórios
-                        </h3>
-
-                        <p>
-                            Analise receitas, despesas,
-                            categorias e períodos.
-                        </p>
-
-                    </article>
-
-                </div>
-
-            </div>
-
-        </section>
-
-
-
-        <!-- =====================================================
-             USE ONLINE
-        ====================================================== -->
-
-        <section
-            id="online"
-            class="online-section"
-        >
-
-            <div class="container online-container">
-
-
-                <div class="online-content">
-
-                    <div class="section-label">
-                        CONTROLES ONLINE
-                    </div>
-
-                    <h2>
-                        Não quer instalar?
-                        <span>
-                            Use direto pelo navegador.
-                        </span>
-                    </h2>
-
-                    <p>
-                        Entre na sua conta pelo computador,
-                        celular ou tablet e tenha acesso às
-                        suas informações financeiras.
-                    </p>
-
-
-                    <ul class="online-list">
-
-                        <li>
-                            <span>✓</span>
-
-                            <div>
-                                <strong>
-                                    Acesso rápido
-                                </strong>
-
-                                <p>
-                                    Basta entrar na sua conta.
-                                </p>
-                            </div>
-                        </li>
-
-
-                        <li>
-                            <span>✓</span>
-
-                            <div>
-                                <strong>
-                                    Dados sincronizados
-                                </strong>
-
-                                <p>
-                                    Use a mesma conta no site e no aplicativo.
-                                </p>
-                            </div>
-                        </li>
-
-
-                        <li>
-                            <span>✓</span>
-
-                            <div>
-                                <strong>
-                                    Funciona em vários dispositivos
-                                </strong>
-
-                                <p>
-                                    Computador, notebook, tablet ou celular.
-                                </p>
-                            </div>
-                        </li>
-
-                    </ul>
-
-
-                    <a
-                        href="app.html"
-                        class="button button-primary"
-                    >
-                        Abrir ControleS Online
-                    </a>
-
-                </div>
-
-
-
-                <div class="online-visual">
-
-                    <div class="online-card">
-
-                        <div class="online-card-logo">
-                            C
-                        </div>
-
-                        <h3>
-                            ControleS
-                        </h3>
-
-                        <p>
-                            Acesse sua conta
-                        </p>
-
-
-                        <div class="fake-input">
-                            seu@email.com
-                        </div>
-
-                        <div class="fake-input">
-                            •••••••••••
-                        </div>
-
-                        <a
-                            href="app.html"
-                            class="fake-login"
-                        >
-                            Entrar no ControleS
-                        </a>
-
-                    </div>
-
-                </div>
-
-            </div>
-
-        </section>
-
-
-
-        <!-- =====================================================
-             PREMIUM
-        ====================================================== -->
-
-        <section
-            id="premium"
-            class="premium-section"
-        >
-
-            <div class="container premium-container">
-
-                <div class="premium-content">
-
-                    <div class="premium-label">
-                        ★ CONTROLES PREMIUM
-                    </div>
-
-                    <h2>
-                        Tenha ainda mais
-                        controle sobre seu dinheiro.
-                    </h2>
-
-                    <p>
-                        Desbloqueie recursos avançados e acompanhe
-                        suas finanças com ainda mais detalhes.
-                    </p>
-
-
-                    <div class="premium-price">
-
-                        <strong>
-                            R$ 24,99
-                        </strong>
-
-                        <span>
-                            / mês
-                        </span>
-
-                    </div>
-
-
-                    <a
-                        href="app.html"
-                        class="button premium-button"
-                    >
-                        Conhecer o Premium
-                    </a>
-
-                </div>
-
-
-                <div class="premium-features">
-
-                    <div>
-                        <span>✓</span>
-                        Relatórios avançados
-                    </div>
-
-                    <div>
-                        <span>✓</span>
-                        Metas financeiras
-                    </div>
-
-                    <div>
-                        <span>✓</span>
-                        Cofrinho mensal
-                    </div>
-
-                    <div>
-                        <span>✓</span>
-                        Resumo mensal
-                    </div>
-
-                    <div>
-                        <span>✓</span>
-                        Ranking de gastos
-                    </div>
-
-                    <div>
-                        <span>✓</span>
-                        Controle financeiro completo
-                    </div>
-
-                </div>
-
-            </div>
-
-        </section>
-
-
-
-        <!-- =====================================================
-             APP / PLAY STORE
-        ====================================================== -->
-
-        <section
-            id="app"
-            class="app-section"
-        >
-
-            <div class="container app-container">
-
-
-                <div class="app-phone">
-
-                    <div class="phone-frame">
-
-                        <div class="phone-speaker"></div>
-
-
-                        <div class="phone-screen">
-
-                            <div class="phone-logo">
-                                C
-                            </div>
-
-                            <h3>
-                                ControleS
-                            </h3>
-
-                            <p>
-                                Seu dinheiro sob controle.
-                            </p>
-
-
-                            <div class="phone-card">
-
-                                <span>
-                                    Saldo atual
-                                </span>
-
-                                <strong>
-                                    R$ 2.730,00
-                                </strong>
-
-                            </div>
-
-
-                            <div class="phone-stats">
-
-                                <div>
-
-                                    <small>
-                                        Receitas
-                                    </small>
-
-                                    <strong>
-                                        R$ 4.850
-                                    </strong>
-
-                                </div>
-
-
-                                <div>
-
-                                    <small>
-                                        Despesas
-                                    </small>
-
-                                    <strong>
-                                        R$ 2.120
-                                    </strong>
-
-                                </div>
-
-                            </div>
-
-                        </div>
-
-                    </div>
-
-                </div>
-
-
-
-                <div class="app-content">
-
-                    <div class="section-label">
-                        APLICATIVO
-                    </div>
-
-                    <h2>
-                        Leve o ControleS
-                        com você.
-                    </h2>
-
-                    <p>
-                        Tenha acesso rápido às suas finanças pelo
-                        aplicativo ControleS no Android.
-                    </p>
-
-
-                    <div class="app-points">
-
-                        <span>
-                            ✓ Acesso rápido pelo celular
-                        </span>
-
-                        <span>
-                            ✓ Mesma conta do ControleS Online
-                        </span>
-
-                        <span>
-                            ✓ Dados sincronizados
-                        </span>
-
-                    </div>
-
-
-                    <!--
-                        Quando o aplicativo estiver publicado,
-                        substitua # pelo link oficial da Play Store.
-                    -->
-
-                    <a
-                        href="#"
-                        class="play-store-button"
-                    >
-
-                        <div class="play-icon">
-                            ▶
-                        </div>
-
-                        <div>
-
-                            <small>
-                                DISPONÍVEL NO
-                            </small>
-
-                            <strong>
-                                Google Play
-                            </strong>
-
-                        </div>
-
-                    </a>
-
-                </div>
-
-            </div>
-
-        </section>
-
-
-
-        <!-- =====================================================
-             CTA
-        ====================================================== -->
-
-        <section class="final-cta">
-
-            <div class="container final-cta-container">
-
-                <div>
-
-                    <span>
-                        COMECE AGORA
-                    </span>
-
-                    <h2>
-                        Organize seu dinheiro hoje.
-                    </h2>
-
-                    <p>
-                        Crie sua conta e comece a usar
-                        o ControleS pelo navegador.
-                    </p>
-
-                </div>
-
-
-                <a
-                    href="app.html"
-                    class="button final-button"
-                >
-                    Usar ControleS Online
-                </a>
-
-            </div>
-
-        </section>
-
-    </main>
-
-
-
-    <!-- =====================================================
-         FOOTER
-    ====================================================== -->
-
-    <footer class="site-footer">
-
-        <div class="container footer-container">
-
-
-            <div class="footer-brand">
-
-                <div class="brand-icon">
-                    C
-                </div>
-
-                <div>
-
-                    <strong>
-                        ControleS
-                    </strong>
-
-                    <p>
-                        Seu dinheiro sob controle.
-                    </p>
-
-                </div>
-
-            </div>
-
-
-            <div class="footer-links">
-
-                <a href="#recursos">
-                    Recursos
-                </a>
-
-                <a href="#online">
-                    Usar Online
-                </a>
-
-                <a href="#app">
-                    Aplicativo
-                </a>
-
-                <a href="#premium">
-                    Premium
-                </a>
-
-            </div>
-
-
-            <div class="footer-contact">
-
-                <span>
-                    Suporte
-                </span>
-
-                <a href="mailto:controlesfinanceirossuport@gmail.com">
-                    controlesfinanceirossuport@gmail.com
-                </a>
-
-            </div>
-
+        <div class="trust-row">
+          <span>✓ Acesso pelo navegador</span>
+          <span>✓ Conta sincronizada</span>
+          <span>✓ Responsivo</span>
         </div>
-
-
-        <div class="footer-bottom">
-
-            <div class="container">
-
-                <p>
-                    © 2026 ControleS. Todos os direitos reservados.
-                </p>
-
+      </div>
+      <div class="hero-preview" aria-label="Prévia do ControleS">
+        <div class="preview-top"><span></span><span></span><span></span></div>
+        <div class="preview-shell">
+          <aside>
+            <strong>ControleS</strong>
+            <small>Finanças pessoais</small>
+            <i class="active">⌂ Início</i>
+            <i>↔ Lançamentos</i>
+            <i>💰 A Receber</i>
+            <i>◈ Categorias</i>
+            <i>▥ Relatórios</i>
+          </aside>
+          <div class="preview-main">
+            <small>VISÃO GERAL</small>
+            <h3>Olá! 👋</h3>
+            <div class="preview-cards">
+              <div class="balance"><span>Saldo do período</span><strong>R$ 2.480,00</strong></div>
+              <div><span>Receitas</span><strong>R$ 4.200,00</strong></div>
+              <div><span>Despesas</span><strong>R$ 1.720,00</strong></div>
             </div>
-
+            <div class="preview-chart"><span></span><span></span><span></span><span></span><span></span><span></span></div>
+          </div>
         </div>
+      </div>
+    </section>
 
-    </footer>
+    <section class="section" id="recursos">
+      <div class="section-title">
+        <span class="eyebrow">TUDO EM UM SÓ LUGAR</span>
+        <h2>Controle financeiro para o dia a dia</h2>
+        <p>Os principais recursos do ControleS também disponíveis diretamente no navegador.</p>
+      </div>
+      <div class="feature-grid">
+        <article><b>↗</b><h3>Receitas e despesas</h3><p>Registre suas movimentações e acompanhe quanto entrou, quanto saiu e o saldo.</p></article>
+        <article><b>💰</b><h3>A receber</h3><p>Organize valores futuros e acompanhe os próximos recebimentos.</p></article>
+        <article><b>◎</b><h3>Metas financeiras</h3><p>Crie objetivos e acompanhe sua evolução financeira.</p></article>
+        <article><b>▥</b><h3>Relatórios</h3><p>Visualize gráficos, comparações e análises das suas movimentações.</p></article>
+        <article><b>◈</b><h3>Categorias</h3><p>Separe seus gastos e receitas para entender melhor para onde vai seu dinheiro.</p></article>
+        <article><b>☁</b><h3>Dados sincronizados</h3><p>Entre com sua conta e acesse seus dados no computador ou celular.</p></article>
+      </div>
+    </section>
 
+    <section class="online-section" id="online">
+      <div>
+        <span class="eyebrow">SEM PRECISAR INSTALAR</span>
+        <h2>Use o ControleS direto no navegador.</h2>
+        <p>Abra no computador, tablet ou celular, faça login e use o sistema online. Seus dados ficam associados à sua conta.</p>
+        <a class="btn btn-primary" href="app.html">Abrir ControleS Web</a>
+      </div>
+      <div class="online-card">
+        <span class="status-dot"></span>
+        <strong>ControleS Web</strong>
+        <p>Disponível online</p>
+        <div class="online-list"><span>✓ Login e cadastro</span><span>✓ Dashboard financeiro</span><span>✓ Lançamentos</span><span>✓ Gráficos e relatórios</span></div>
+      </div>
+    </section>
 
+    <section class="app-section" id="app">
+      <div class="phone">
+        <div class="phone-screen"><span class="phone-logo">C↗</span><strong>ControleS</strong><small>Seu dinheiro sob controle.</small></div>
+      </div>
+      <div class="app-copy">
+        <span class="eyebrow">CONTROLES NO SEU CELULAR</span>
+        <h2>Prefere usar como aplicativo?</h2>
+        <p>Tenha o ControleS sempre à mão. A versão Android leva a experiência do sistema para o seu celular.</p>
+        <a class="play-badge" href="#" aria-label="Link da Play Store a configurar">
+          <span>▶</span><div><small>DISPONÍVEL NO</small><strong>Google Play</strong></div>
+        </a>
+        <small class="link-note">Troque o link deste botão pelo endereço do ControleS na Play Store quando a publicação estiver disponível.</small>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <a class="brand" href="#inicio"><span class="brand-mark">C↗</span><span>ControleS</span></a>
+    <p>Seu dinheiro sob controle.</p>
+    <span>© 2026 ControleS</span>
+  </footer>
 </body>
-
 </html>
